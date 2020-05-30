@@ -8,7 +8,7 @@ We are an algerian youth, love web development, we met here to solve algorithms 
 
 clone this repository and get started
 
-```git
+```javascript
 git clone https://github.com/nourdar/jsLovers
 ```
 
@@ -16,8 +16,14 @@ git clone https://github.com/nourdar/jsLovers
 
 1. you will fetch new files to update your local repositry
 
-```git
+```javascript
 git fetch
 ```
 
 2. start coding and do what you want to do then push your work 
+
+```javascript
+git push
+```
+
+**Done**
