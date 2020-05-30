@@ -9,28 +9,10 @@ document.title = "Parallax challenge"
 
 
 
-
-
-
-
 /* Start Parallax */
-const goTop = (element) => {
-    element.onmousemove = (e) => {
-        c(e.pageY)
+let two = document.getElementById('two')
 
-        if(element.style.position != 'absolute') {
-            element.style.position = 'absolute'
-        }
-        if(element.style.top < e.pageY) {
-            element.style.top =  `${e.pageY}px`
-        } else {
-            const top = e.pageY - element.style.top
-            element.style.top =  `${-top}px`
-        }
-        
-        element.style.zIndex = 5
-    }
-  
-
-}
+document.addEventListener('scroll', (event) => {
+    two.style.height = window.pageYOffset < 500 ? window.pageYOffset + 'px' : two.style.height
+})
 /* End Parallax  */
