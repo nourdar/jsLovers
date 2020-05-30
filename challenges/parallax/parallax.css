@@ -20,6 +20,9 @@
 }
 #two {
     position: relative;
+    height:0px;
+    top: 20px;
+    margin-top: -20px;
     background-image: url("https://i.picsum.photos/id/865/1000/500.jpg");
 }
 #three {
