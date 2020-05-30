@@ -9,6 +9,6 @@ document.title = "Parallax challenge"
 
 /* Start Parallax */
 
-
+// code here
 
 /* End Parallax */
