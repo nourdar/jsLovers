@@ -50,5 +50,5 @@ const checkRepeated = listOfNumbers => {
 }
 
 
-console.log(checkRepeatedNumberRecursion([1, 2, 3, 5, 7, 7]))
+console.log(checkRepeatedNumberRecursion([1, 2, 2, 1]))
 console.log(currentNumber)
